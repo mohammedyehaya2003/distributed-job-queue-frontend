@@ -1,22 +1,41 @@
-# Distributed Job Queue Dashboard
+# Distributed Job Queue Dashboard (Frontend)
 
-## Project Overview
+## Overview
 
-A React-based monitoring dashboard for the Distributed Job Queue System.
+A React-based monitoring dashboard built for the Distributed Job Queue System.
 
-The application provides a landing page, job submission interface, and real-time dashboard for monitoring job status, analytics, and queue activity.
+The application provides a user-friendly interface for job submission, real-time monitoring, analytics visualization, and queue status tracking.
 
 ---
 
 ## Features
 
-- Landing Page
-- Submit Job Page
-- Dashboard Monitoring
-- Real-Time Polling
-- Analytics Display
-- Navigation Bar
-- Responsive Layout
+### Landing Page
+- Project introduction
+- Architecture overview
+- Navigation between pages
+
+### Job Submission
+- Submit background jobs
+- Support for multiple job types
+- Form validation
+
+### Dashboard Monitoring
+- Total Jobs
+- Pending Jobs
+- Processing Jobs
+- Completed Jobs
+- Failed Jobs
+
+### Analytics
+- Success Rate
+- Failure Rate
+- Real-time updates
+
+### UI Features
+- Responsive Design
+- Clean Dashboard Layout
+- React Router Navigation
 
 ---
 
@@ -24,33 +43,31 @@ The application provides a landing page, job submission interface, and real-time
 
 ### Home Page
 
-Introduces the project and explains how the system works.
+Introduces the project and explains the workflow.
 
 ### Submit Job Page
 
-Allows users to submit jobs.
+Allows users to submit:
 
-Supported Job Types:
+- EMAIL Jobs
+- REPORT Jobs
+- IMAGE Jobs
 
-- EMAIL
-- REPORT
-- IMAGE
-
-### Dashboard
+### Dashboard Page
 
 Displays:
 
+- Total Jobs
 - Pending Jobs
 - Processing Jobs
 - Completed Jobs
 - Failed Jobs
-- Total Jobs
 - Success Rate
 - Failure Rate
 
 ---
 
-## Technology Stack
+## Tech Stack
 
 ### Frontend
 
@@ -86,7 +103,7 @@ src/
 
 ---
 
-## Installation & Setup
+## Installation
 
 ### Clone Repository
 
@@ -111,16 +128,13 @@ npm run dev
 ## Screenshots
 
 ### Home Page
-
-Project introduction and navigation.
+Project introduction and workflow overview.
 
 ### Submit Job Page
-
 Job submission interface.
 
-### Dashboard
-
-Real-time analytics and monitoring.
+### Dashboard Page
+Real-time monitoring and analytics.
 
 ---
 
@@ -132,11 +146,12 @@ Real-time analytics and monitoring.
 - Dark/Light Theme
 - Advanced Charts
 - Real-Time Notifications
+- Live Deployment
 
 ---
 
 ## Author
 
-Yahya
+**Yahya**
 
 Frontend dashboard for monitoring and interacting with the Distributed Job Queue System.
