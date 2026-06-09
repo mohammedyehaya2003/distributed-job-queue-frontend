@@ -1,0 +1,54 @@
+.landing-container {
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.landing-title {
+  font-size: 56px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #60a5fa;
+}
+
+.landing-subtitle {
+  color: #94a3b8;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.landing-buttons {
+  margin-bottom: 60px;
+}
+
+.landing-buttons button {
+  margin: 0 10px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  background: #2563eb;
+  color: white;
+}
+
+.how-it-works h2 {
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step-card {
+  background-color: #1e293b;
+  padding: 24px;
+  border-radius: 16px;
+  width: 220px;
+  border-top: 4px solid #3b82f6;
+}
